@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1200px;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #5D6063;
+}
+
+/* styles links */
+a:link,
+a:visited {
+  color: #5D6063;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* organizes header */
+.header {
+  position: fixed; /* keeps nav menu on top of content in page box */
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 50px;
+  background: #D6E9FE;
+}
+
+.logo {
+  margin-right: 30px;
+}
+
+/* adjusts margins */
+.menu {
+  margin-top: 15px;
+}
+
+/* gets rid of default li circles. puts li's in a horizontal line. */
+.menu > li {
+  display: inline;
+  margin-right: 50px;
+}
+
+/* adjusts margins */
+.menu > li:last-of-type {
+  margin-right: 0;
+}
+
+/* makes box for submenu */
+/* with .dropdown:hover, makes menu hover */
+.dropdown:hover .features-menu {
+  display: flex;
+  flex-direction: column;
+  background: #B2D6FF;
+  border-radius: 5px;
+  padding-top: 60px;
+
+/* makes submenu box float over the rest of the menu */
+  position: absolute;
+  top: -25px;
+  left: -30px;
+
+/* in conjunction with the dropdown span rule, puts the button in the menu over its dropdown list */
+  z-index: 1;
+}
+
+/* makes submenu disappear when not hovering */
+.features-menu {
+  display: none;
+}
+
+/* puts li's in submenu box */
+.features-menu li {
+  list-style: none;
+  border-bottom: 1px solid #FFF;
+
+  padding: 0 40px 10px 20px;
+  margin: 10px;
+}
+
+/* adjusts padding */
+.features-menu li:last-of-type {
+  border-bottom: none;
+}
+
+/* positions dropdown box relative to its environment */
+.dropdown {
+  position: relative;
+}
+
+/* positions dropdown box behind the element that triggers it  */
+.dropdown > span {
+  z-index: 2;
+  position: relative;  /* This is important! It makes the z index work. */
+  cursor: pointer;
+}
