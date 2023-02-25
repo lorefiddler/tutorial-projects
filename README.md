@@ -11,3 +11,7 @@ The CAPTCHA project is from this tutorial: https://www.makeuseof.com/captcha-val
 It's a good tutorial, but I decided not to use CAPTCHA on my website for accessibility reasons.
 
 Product Card: https://www.w3schools.com/howto/howto_css_product_card.asp
+
+Product Page: https://designmodo.com/create-product-page/
+
+Shopping Cart: https://www.smashingmagazine.com/2019/08/shopping-cart-html5-web-storage/
