@@ -15,3 +15,5 @@ Product Card: https://www.w3schools.com/howto/howto_css_product_card.asp
 Product Page: https://designmodo.com/create-product-page/
 
 Shopping Cart: https://www.smashingmagazine.com/2019/08/shopping-cart-html5-web-storage/
+
+Searchbar: https://www.geeksforgeeks.org/search-bar-using-html-css-and-javascript/
