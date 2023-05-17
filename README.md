@@ -21,3 +21,5 @@ Searchbar: https://www.geeksforgeeks.org/search-bar-using-html-css-and-javascrip
 React TicTacToe game: https://react.dev/learn
 
 Next.js form: https://nextjs.org/docs/guides/building-forms
+
+Shine-Animation: I combined two projects in this folder. Example 1 uses the index and style pages, and the source for that code is: https://codepen.io/fishtoyo/pen/VYQVQx. Example two is in the index2 and style2 pages, and contains code from this site: https://www.amitmerchant.com/shine-animation-on-hover-using-css/
