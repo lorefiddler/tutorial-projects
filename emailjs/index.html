@@ -33,18 +33,31 @@
 </head>
 <body>
     <form id="contact-form">
+        <div class='button home-button'><a href='destination.html'>Destination page</a></div>
+
         <input type="hidden" name="contact_number">
+
         <label>Name</label>
-
         <input type="text" name="user_name">
+
         <label>Email</label>
-
         <input type="email" name="user_email">
-        <label>Message</label>
 
+        <label>Message</label>
         <textarea name="message"></textarea>
-        
-        <input type="submit" value="Send">
+
+        <a href="destination.html">
+            <input type="submit" value="Send (with href style link)"/>
+        </a>
+
+        <input type="submit" value="Send (with ">
+
+        <input type="submit" value="Send" onClick="myFunction()"/>
+        <script>
+            function myFunction() {
+                window.location.href="destination.html";
+            }
+        </script>
     </form>
 </body>
 </html>
