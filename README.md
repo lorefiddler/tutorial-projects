@@ -25,3 +25,5 @@ Next.js form: https://nextjs.org/docs/guides/building-forms
 Shine-Animation: I combined two projects in this folder. Example 1 uses the index and style pages, and the source for that code is: https://codepen.io/fishtoyo/pen/VYQVQx. Example two is in the index2 and style2 pages, and contains code from this site: https://www.amitmerchant.com/shine-animation-on-hover-using-css/
 
 Emailjs: https://www.emailjs.com/docs/tutorial/creating-contact-form/ for help fixing syntax in emailjs template, this was useful: https://stackoverflow.com/questions/66880659/sender-email-address-not-included-in-emailjs
+
+Hover Scroll: https://rahmanzeb.com/make-an-image-scroll-from-top-to-bottom-on-hover/
