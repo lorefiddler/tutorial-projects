@@ -27,3 +27,6 @@ Shine-Animation: I combined two projects in this folder. Example 1 uses the inde
 Emailjs: https://www.emailjs.com/docs/tutorial/creating-contact-form/ for help fixing syntax in emailjs template, this was useful: https://stackoverflow.com/questions/66880659/sender-email-address-not-included-in-emailjs
 
 Hover Scroll: https://rahmanzeb.com/make-an-image-scroll-from-top-to-bottom-on-hover/
+
+Button Animation: https://www.w3schools.com/css/css3_buttons.asp, 
+https://webdeasy.de/en/top-css-buttons-en/?referer=dev-updated-f41
